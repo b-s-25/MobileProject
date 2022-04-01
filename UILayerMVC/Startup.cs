@@ -44,7 +44,7 @@ namespace UILayerMVC
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            //swagger
             app.UseRouting();
 
             app.UseAuthorization();
